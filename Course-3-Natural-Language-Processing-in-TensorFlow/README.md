@@ -6,8 +6,20 @@ TensorFlow Datasets (TFDS) : https://www.tensorflow.org/datasets
 TFDS Catalog : https://github.com/tensorflow/datasets/tree/master/docs/catalog
 
 ## Content of the notebook files :- 
-File: c3_week1_lab_1_2_tokenizer_basics.ipynb --- tokenizing natural language data into sequence of numbers/values/tokens per word so that the computer can work with them.
+File: c3_week1_lab_1_2_tokenizer_basics.ipynb --- tokenizing natural language text into sequence of numbers/values/tokens per word so that the computer can work with them.
 
-File: c3_week1_lab_3_sarcasm_detection.ipynb --- only upto tokenizing the kaggle-Sarcasm-Detection dataset into sequence of numbers/tokens and creating the word index->{key=word: value=token}
+File: c3_week1_lab_3_sarcasm_detection.ipynb --- only upto tokenizing the kaggle-Sarcasm-Detection dataset into sequence of numbers/tokens and creating the word_index->{key=word: value=token}
 
-File: c3_week2_lab_1_imdb_reviews*.ipynb --- 1) tokenizing the imdb_reviews (plain_text) data from TensorFlow datasets  2) creating an NLP classifier whose first layer is non-trainable Embedding layer that converts the words/tokens into vectors of fixed dimensions   3) then these vectors are flattened and inserted into the trainable layers   4) the vectors point to either pole (as binary classification) based on the labels
+File: c3_week2_lab_1_imdb_reviews*.ipynb ---
+1) tokenizing the imdb_reviews (plain_text) data from TensorFlow datasets to create the word_index
+2) creating an NLP classifier whose first layer is non-trainable Embedding layer that converts the words/tokens into vectors of fixed dimensions
+3) then these vectors are flattened and inserted into the trainable layers
+4) the vectors point to either pole (as binary classification) based on the labels
+
+File: c3_week2_lab_2_sarcasm_classifier*.ipynb ---
+This is the exact COURSERA version of code - so no attempt of optimzation has been made
+1) importing the kaggle-Sarcasm-Detection dataset(contains captions and is_sarcastic(0/1) as the label) json and tokenizing the text to create the word_index
+2) creating an NLP classifier whose first layer is non-trainable Embedding layer that converts the words/tokens into vectors of fixed dimensions
+3) then these vectors are flattened and inserted into the trainable layers
+4) the vectors point to either pole (as binary classification whether sarcastic or not) based on the labels
+5) model.predict on custom text(caption) will output a probability towards the caption being Sarcastic as the model's last layer had a single neuron with "sigmoid" activation function which is S-shaped and thus only used to determine binary classification results
