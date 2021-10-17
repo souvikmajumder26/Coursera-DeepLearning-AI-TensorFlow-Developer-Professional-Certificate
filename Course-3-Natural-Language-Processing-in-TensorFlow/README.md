@@ -28,6 +28,8 @@ This is the exact COURSERA version of code - so no attempt of optimzation has be
 
 ### File: c3_week2_lab_3_imdb_subwords.ipynb ---
 This is the exact COURSERA version of code.
+> "Taking one step back to move two steps forward"
+
 > Subwords are fragments of whole words; for eg: the three subwords (Ten, sor, Flow) are actually parts of the word "TensorFlow"; and subwords are case,punctuation,etc.-sensitive.
 >
 > Here, tokenization has already been done using the subwords and the word_index is already available; so we can use TensorFlow>Tokenizer>encode to convert a text into sequence of tokens, based on the word_index->{key=subword: value=token} AND use TensorFlow>Tokenizer>decode to convert a sequence of tokens into text, based on the word_index.
