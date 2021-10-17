@@ -5,7 +5,7 @@ TensorFlow Datasets (TFDS) : https://www.tensorflow.org/datasets
 
 TFDS Catalog : https://github.com/tensorflow/datasets/tree/master/docs/catalog
 
-## The notebook files content :- 
+## Content of the notebook files :- 
 File: c3_week1_lab_1_2_tokenizer_basics.ipynb --- tokenizing natural language data into sequence of numbers/values/tokens per word so that the computer can work with them.
 
 File: c3_week1_lab_3_sarcasm_detection.ipynb --- only upto tokenizing the kaggle-Sarcasm-Detection dataset into sequence of numbers/tokens and creating the word index-{key=word: value=token}
