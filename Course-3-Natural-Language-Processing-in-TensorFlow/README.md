@@ -6,7 +6,7 @@ TensorFlow Datasets (TFDS) : https://www.tensorflow.org/datasets
 TFDS Catalog : https://github.com/tensorflow/datasets/tree/master/docs/catalog
 
 ## Content of the notebook files :- 
-### c3_week1_lab_1_2_tokenizer_basics.ipynb
+### File: c3_week1_lab_1_2_tokenizer_basics.ipynb ---
 Tokenizing natural language text into sequence of numbers/values/tokens per word so that the computer can work with them.
 
 ### File: c3_week1_lab_3_sarcasm_detection.ipynb ---
