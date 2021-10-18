@@ -37,3 +37,5 @@ This is the exact COURSERA version of code.
 > Now, only training and testing the model to predict the label for a particular text, based on what subwords are present in the text doesn't really work well because only the presence of "Ten" might be confused with a completely different word, the presence of "sor" won't indicate anything because it is meaningless.
 > 
 > These subwords will work well, only if we can track the sequence of the subwords to form meaningful words like "Ten-sor-Flow", and for that sequence tracking - we need Recurrent Neural Network (RNN) which we'll be using in future (not in this code).
+
+### File: c3_week2_(optional_assignment)_bbc_news_archive.ipynb ---
