@@ -5,7 +5,10 @@ Course 3 of the Coursera Professional Certificate : DeepLearning.AI-Tensorflow-D
 
 > TFDS Catalog : https://github.com/tensorflow/datasets/tree/master/docs/catalog
 
-## Content of the notebook files :- 
+# Content of the Course :-
+
+## Week-1
+
 ### File: c3_week1_lab_1_2_tokenizer_basics.ipynb ---
 > Tokenizing natural language text into sequence of numbers/values/tokens per word so that the computer can work with them.
 
@@ -13,6 +16,8 @@ Course 3 of the Coursera Professional Certificate : DeepLearning.AI-Tensorflow-D
 > kaggle "News Headlines Dataset for Sarcasm Detection" Dataset: https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection
 
 > Only upto tokenizing the kaggle-Sarcasm-Detection dataset into sequence of numbers/tokens and creating the word_index->{key=word: value=token}.
+
+## Week-2
 
 ### File: c3_week2_lab_1_imdb_reviews*.ipynb ---
 > 1) tokenizing the imdb_reviews (plain_text) data from TensorFlow datasets to create the word_index
@@ -47,3 +52,5 @@ This is the exact COURSERA version of code.
 > This is a Multi-Class Classification problem as there are 6 different types of labels / 6 categories of news.
 
 > "Content of the News Article" is being used as the text data AND "Manually Labeled Categories of News" is being used as the labels/target values.
+
+## Week-3
