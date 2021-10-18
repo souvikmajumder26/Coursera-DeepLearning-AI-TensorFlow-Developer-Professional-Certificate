@@ -38,7 +38,7 @@ This is the exact COURSERA version of code.
 > 
 > These subwords will work well, only if we can track the sequence of the subwords to form meaningful words like "Ten-sor-Flow", and for that sequence tracking - we need Recurrent Neural Network (RNN) which we'll be using in future (not in this code).
 
-### File: c3_week2(optional_assignment)bbc_news_archive*.ipynb ---
+### File: c3_week2_optional_assignment_bbc_news_archive*.ipynb ---
 This is the exact COURSERA version of code.
 > kaggle "BBC News Archive" Dataset: https://www.kaggle.com/hgultekin/bbcnewsarchive
 
