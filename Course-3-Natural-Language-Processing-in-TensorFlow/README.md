@@ -55,8 +55,8 @@ This is the exact COURSERA version of code.
 
 ## Week-3
 
-> Till now, we were training and predicting texts/sentences based on what words are present in the sentence - like if a positive word(inferred from training using the labelled data) is encountered then the probability of the sentence being predicted as the positive class increases and same for the negative class and same in case of multi-class also.
->
-> But "My dog sat on the hat." and "The hat sat on my dog." have completely different meanings though they contain the same words - that's why the sequence of the words in the texts/sentences play a vital role which can only be Tracked/Implemented using special SEQUENCE NEURAL NETWORK MODELS like:- Recurrent Neural Network (RNN), Long Short Term Memory (LSTM), Gated Recurrent Unit (GRU).
->
->
+Till now, we were training and predicting texts/sentences based on what words are present in the sentence - like if a positive word(inferred from training using the labelled data) is encountered then the probability of the sentence being predicted as the positive class increases and same for the negative class and same in case of multi-class also.
+
+But "My dog sat on the hat." and "The hat sat on my dog." have completely different meanings though they contain the same words - that's why the sequence of the words in the texts/sentences play a vital role which can only be Tracked/Implemented using special SEQUENCE NEURAL NETWORK MODELS like:- Recurrent Neural Network (RNN), Long Short Term Memory (LSTM), Gated Recurrent Unit (GRU).
+
+
