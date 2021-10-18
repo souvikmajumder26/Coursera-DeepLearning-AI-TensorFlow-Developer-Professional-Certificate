@@ -9,7 +9,7 @@ Course 3 of the Coursera Professional Certificate : DeepLearning.AI-Tensorflow-D
 
 ## Week-1
 
-### File: c3_week1_lab_1_2_tokenizer_basics.ipynb ---
+#### File: c3_week1_lab_1_2_tokenizer_basics.ipynb ---
 > Tokenizing natural language text into sequence of numbers/values/tokens per word so that the computer can work with them.
 
 ### File: c3_week1_lab_3_sarcasm_detection.ipynb ---
