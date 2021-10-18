@@ -38,5 +38,10 @@ This is the exact COURSERA version of code.
 > 
 > These subwords will work well, only if we can track the sequence of the subwords to form meaningful words like "Ten-sor-Flow", and for that sequence tracking - we need Recurrent Neural Network (RNN) which we'll be using in future (not in this code).
 
-### File: c3_week2_(optional_assignment)_bbc_news_archive.ipynb ---
-__This is the exact COURSERA version of code.__
+### File: c3_week2(optional_assignment)bbc_news_archive*.ipynb ---
+This is the exact COURSERA version of code.
+> kaggle "BBC News Archive" Dataset: https://www.kaggle.com/hgultekin/bbcnewsarchive
+
+> This is a Multi-Class Classification problem as there are 6 different types of labels / 6 categories of news.
+
+> "Content of the News Article" is being used as the text data AND "Manually Labeled Categories of News" is being used as the labels/target values.
