@@ -61,16 +61,18 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 
 > A simple Neural Network :
 > ![image](https://user-images.githubusercontent.com/86871718/138137557-04ed311a-aca6-4e24-817c-673929f40c4d.png)
-> ![image](https://user-images.githubusercontent.com/86871718/138134295-d776868a-2ccb-4d4e-96f2-25be0a9ce870.png)
+> ![image](https://user-images.githubusercontent.com/86871718/138137796-16508805-dc8f-402d-bf97-339796325ed3.png)
 
 > Fibonacci Series Function (where the sequence of the numbers matters) :
-> ![image](https://user-images.githubusercontent.com/86871718/138134448-2f82b1df-9e9d-4869-bcaf-bb0ce2601bd4.png)
-> ![image](https://user-images.githubusercontent.com/86871718/138134482-704ba448-2c39-4e4f-bcad-f8fca41382c4.png)
+> ![image](https://user-images.githubusercontent.com/86871718/138137825-a5539469-4945-4967-ba86-4e57fcfd21b0.png)
+> ![image](https://user-images.githubusercontent.com/86871718/138137844-f4e6d51c-8ff2-42a2-9783-e9f8010614d9.png)
 
 > So, to track the sequence of words/numbers, we have to store or feed in the previous output continuosly (just like Sequential Circuit in Digital Electronics) and this can be impelemented using RNN (they carry the meaning from one cell to the next) :
-> ![image](https://user-images.githubusercontent.com/86871718/138134702-13dbc28c-bf2b-448e-b867-78084e003051.png)
-> ![image](https://user-images.githubusercontent.com/86871718/138134721-16fc13af-760a-4871-909f-fbe62f70091e.png)
+> ![image](https://user-images.githubusercontent.com/86871718/138137867-6ed97f73-7997-4850-b61b-2c4dfb77d729.png)
+> ![image](https://user-images.githubusercontent.com/86871718/138137875-afc532bb-a043-408e-a94c-dee167bdb40d.png)
 
+> Here, the predicted value in the blank depends on a keyword present in the sentence way before. As RNN only transmits each cell's output i.e. the current meaning, so the keyword 'Ireland' will be lost in case of RNN.
+> ![image](https://user-images.githubusercontent.com/86871718/138138204-2125e5f4-c913-40b6-b917-e25463fb4a35.png)
 
 
 
