@@ -28,7 +28,7 @@ Course 3 of Coursera Professional Certificate: DeepLearning.AI-Tensorflow-Develo
 ## Week-2
 
 ### File: c3_week2_lab_1_imdb_reviews*.ipynb ---
-> 1) tokenizing the <b>imdb_reviews (plain_text) from TensorFlow datasets</b> to create the word_index
+> 1) tokenizing the <b><i>imdb_reviews (plain_text) from TensorFlow datasets</i></b> to create the word_index
 > 2) creating an NLP classifier whose first layer is non-trainable Embedding layer that converts the words/tokens into vectors of fixed dimensions
 > 3) then these vectors are flattened and inserted into the trainable layers
 > 4) the vectors point to either pole (as binary classification) based on the labels
