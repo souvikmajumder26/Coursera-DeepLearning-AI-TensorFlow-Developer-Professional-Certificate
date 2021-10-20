@@ -67,6 +67,8 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > ![image](https://user-images.githubusercontent.com/86871718/138137825-a5539469-4945-4967-ba86-4e57fcfd21b0.png)
 > ![image](https://user-images.githubusercontent.com/86871718/138137844-f4e6d51c-8ff2-42a2-9783-e9f8010614d9.png)
 
+<b>Recurrent Neural Network (RNN)</b>
+
 > So, to track the sequence of words/numbers, we have to store or feed in the previous output continuosly (just like Sequential Circuit in Digital Electronics) and this can be impelemented using RNN (they carry the meaning from one cell to the next) :
 > ![image](https://user-images.githubusercontent.com/86871718/138137867-6ed97f73-7997-4850-b61b-2c4dfb77d729.png)
 > ![image](https://user-images.githubusercontent.com/86871718/138137875-afc532bb-a043-408e-a94c-dee167bdb40d.png)
