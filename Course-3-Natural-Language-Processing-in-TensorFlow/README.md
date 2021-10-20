@@ -80,15 +80,15 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 
 > Along with the context/meaning being propagated like in RNN, "CELL STATE" is also passed/propagated in case of LSTM. CELL STATE keeps context from earlier tokens relevant in later ones so that "Gaelic" can be predicted from the context of the individual token of "Ireland" (earlier example) that would have been lost in case of just RNN.
 
-> CELL STATE can be either unidirectional or bidirectional.
+> <b>CELL STATE</b> can be either unidirectional or bidirectional.
 > ![image](https://user-images.githubusercontent.com/86871718/138149705-24cd32d3-65cc-47bb-b84e-f95d983ad120.png)
 > ![image](https://user-images.githubusercontent.com/86871718/138149735-198ef47f-c1f5-43c5-94e1-eb7c0b1162dd.png)
 
 > <b>Using LSTM in NN model code</b>
 > ![image](https://user-images.githubusercontent.com/86871718/138155511-019334ff-0e25-46eb-a9f4-5d9c3d1d6b01.png)
-> Due to the keras layer being "bidirectional" the Cell State of LSTM can propagate in both forward and back directions. Thus LSTM(64) produces a model with shape (None, 128).
+> Due to the keras layer being "bidirectional" the Cell State of LSTM can propagate in both forward and backward directions. Thus LSTM(64) produces a model with Output Shape (None, 128).
 > ![image](https://user-images.githubusercontent.com/86871718/138155841-8546ade6-c588-4946-9140-0aaff11aa710.png)
-> LSTMs can be stacked but then we have to 
+> LSTMs can be stacked but then we have to put return_sequences=True for the previous LSTM layer whose output will feed into the input of the next LSTM layer, to ensure that the output of the previous LSTM layer match the input of the next LSTM layer.
 > ![image](https://user-images.githubusercontent.com/86871718/138155978-8f5a70cd-616a-482f-9775-712e10032a97.png)
 
 
