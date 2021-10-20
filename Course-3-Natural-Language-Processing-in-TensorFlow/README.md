@@ -84,5 +84,12 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > ![image](https://user-images.githubusercontent.com/86871718/138149705-24cd32d3-65cc-47bb-b84e-f95d983ad120.png)
 > ![image](https://user-images.githubusercontent.com/86871718/138149735-198ef47f-c1f5-43c5-94e1-eb7c0b1162dd.png)
 
+> <b>Using LSTM in NN model code</b>
+> ![image](https://user-images.githubusercontent.com/86871718/138155511-019334ff-0e25-46eb-a9f4-5d9c3d1d6b01.png)
+> Due to the keras layer being "bidirectional" the Cell State of LSTM can propagate in both forward and back directions. Thus LSTM(64) produces a model with shape (None, 128).
+> ![image](https://user-images.githubusercontent.com/86871718/138155841-8546ade6-c588-4946-9140-0aaff11aa710.png)
+> LSTMs can be stacked but then we have to 
+> ![image](https://user-images.githubusercontent.com/86871718/138155978-8f5a70cd-616a-482f-9775-712e10032a97.png)
+
 
 
