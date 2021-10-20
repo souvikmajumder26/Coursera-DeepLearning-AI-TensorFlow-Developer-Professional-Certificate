@@ -71,7 +71,7 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > ![image](https://user-images.githubusercontent.com/86871718/138137867-6ed97f73-7997-4850-b61b-2c4dfb77d729.png)
 > ![image](https://user-images.githubusercontent.com/86871718/138137875-afc532bb-a043-408e-a94c-dee167bdb40d.png)
 
-> Here, the predicted value in the blank depends on a keyword present in the sentence way before. As RNN only transmits each cell's output i.e. the current meaning, so the keyword 'Ireland' will be lost in case of RNN.
+> Here, the predicted value in the blank depends on a keyword present in the sentence way before. As RNN only propagates each cell's output i.e. the current meaning, so the keyword 'Ireland' will be lost in case of RNN.
 > ![image](https://user-images.githubusercontent.com/86871718/138138204-2125e5f4-c913-40b6-b917-e25463fb4a35.png)
 
 
