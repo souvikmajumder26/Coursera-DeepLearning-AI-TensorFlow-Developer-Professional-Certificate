@@ -21,7 +21,7 @@ Course 3 of Coursera Professional Certificate: DeepLearning.AI-Tensorflow-Develo
 > Tokenizing natural language text into sequence of numbers/values/tokens per word so that the computer can work with them.
 
 ### File: c3_week1_lab_3_sarcasm_detection.ipynb ---
-> kaggle "News Headlines Dataset for Sarcasm Detection" Dataset: https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection
+> Kaggle Dataset: <a href="https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection">News Headlines Dataset for Sarcasm Detection</a>
 
 > Only upto tokenizing the kaggle-Sarcasm-Detection dataset into sequence of numbers/tokens and creating the word_index->{key=word: value=token}.
 
