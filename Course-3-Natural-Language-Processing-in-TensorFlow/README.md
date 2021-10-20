@@ -11,9 +11,7 @@ Course 3 of Coursera Professional Certificate: DeepLearning.AI-Tensorflow-Develo
 > Dataset: <a href="https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection">News Headlines Dataset for Sarcasm Detection</a>
 > 
 > Notebooks on Sarcasm Detection dataset:
-> <a href="https://www.kaggle.com/madz2000/sarcasm-detection-with-glove-word2vec-83-accuracy/notebook#TRAINING-WORD2VEC-MODEL">Sarcasm Detection with GloVe/Word2Vec(83%Accuracy)</a>
-> 
-> <a href="https://www.kaggle.com/gauravduttakiit/sarcasm-detection-using-transformers">Sarcasm Detection using Transformers</a>
+> <a href="https://www.kaggle.com/madz2000/sarcasm-detection-with-glove-word2vec-83-accuracy/notebook#TRAINING-WORD2VEC-MODEL">Sarcasm Detection with GloVe/Word2Vec(83%Accuracy)</a>, <a href="https://www.kaggle.com/gauravduttakiit/sarcasm-detection-using-transformers">Sarcasm Detection using Transformers</a>
 
 # Content of the Course :-
 
