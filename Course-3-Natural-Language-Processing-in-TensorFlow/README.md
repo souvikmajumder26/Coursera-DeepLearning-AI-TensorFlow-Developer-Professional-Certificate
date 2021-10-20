@@ -77,7 +77,8 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > ![image](https://user-images.githubusercontent.com/86871718/138138204-2125e5f4-c913-40b6-b917-e25463fb4a35.png)
 
 <b>Long Short Term Memory (LSTM)</b>
-Along with the context/meaning being propagated like in RNN, "CELL STATE" is also passed/propagated in case of LSTM. CELL STATE keeps context from earlier tokens relevant in later ones so that "Gaelic" can be predicted from the context of the individual token of "Ireland" (earlier example) that would have been lost in case of just RNN.
+
+> Along with the context/meaning being propagated like in RNN, "CELL STATE" is also passed/propagated in case of LSTM. CELL STATE keeps context from earlier tokens relevant in later ones so that "Gaelic" can be predicted from the context of the individual token of "Ireland" (earlier example) that would have been lost in case of just RNN.
 
 > CELL STATE can be either unidirectional or bidirectional.
 > ![image](https://user-images.githubusercontent.com/86871718/138149705-24cd32d3-65cc-47bb-b84e-f95d983ad120.png)
