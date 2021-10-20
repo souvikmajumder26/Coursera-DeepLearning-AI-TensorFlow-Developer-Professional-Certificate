@@ -76,6 +76,12 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > Here, the predicted value in the blank depends on a keyword present in the sentence way before. As RNN only propagates each cell's output i.e. the current meaning, so the keyword 'Ireland' will be lost in case of RNN.
 > ![image](https://user-images.githubusercontent.com/86871718/138138204-2125e5f4-c913-40b6-b917-e25463fb4a35.png)
 
+<b>Long Short Term Memory (LSTM)</b>
+Along with the context/meaning being propagated like in RNN, "CELL STATE" is also passed/propagated in case of LSTM. CELL STATE keeps context from earlier tokens relevant in later ones so that "Gaelic" can be predicted from the context of the individual token of "Ireland" (earlier example) that would have been lost in case of just RNN.
+
+> CELL STATE can be either unidirectional or bidirectional.
+> ![image](https://user-images.githubusercontent.com/86871718/138149705-24cd32d3-65cc-47bb-b84e-f95d983ad120.png)
+> ![image](https://user-images.githubusercontent.com/86871718/138149735-198ef47f-c1f5-43c5-94e1-eb7c0b1162dd.png)
 
 
 
