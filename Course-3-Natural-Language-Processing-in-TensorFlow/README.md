@@ -59,7 +59,7 @@ Till now, we were training and predicting texts/sentences based on what words ar
 
 But "My dog sat on the hat." and "The hat sat on my dog." have completely different meanings though they contain the same words - that's why the sequence of the words in the texts/sentences has a huge impact on the overall meaning of the sentence, which can only be Tracked/Implemented using special SEQUENCE NEURAL NETWORK MODELS like:- Recurrent Neural Network (RNN), Long Short Term Memory (LSTM), Gated Recurrent Unit (GRU).
 
-> A simple Neural Network :
+<b>A simple Neural Network</b>
 > ![image](https://user-images.githubusercontent.com/86871718/138137557-04ed311a-aca6-4e24-817c-673929f40c4d.png)
 > ![image](https://user-images.githubusercontent.com/86871718/138137796-16508805-dc8f-402d-bf97-339796325ed3.png)
 
