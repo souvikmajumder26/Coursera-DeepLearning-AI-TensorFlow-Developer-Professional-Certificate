@@ -1,5 +1,5 @@
 # Natural-Language-Processing-in-TensorFlow
-Course 3 of the Coursera Professional Certificate : DeepLearning.AI-Tensorflow-Developer-Professional-Certificate
+Professional Certificate: DeepLearning.AI-Tensorflow-Developer-Professional-Certificate --- Course 3 : <a href="https://www.coursera.org/learn/natural-language-processing-tensorflow">Natural Language Processing in TensorFlow</a>
 
 > <a href="https://www.tensorflow.org/datasets" target="_blank">TensorFlow Datasets (TFDS)</a>
 > 
