@@ -102,5 +102,8 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > <b>LSTMs can be stacked</b> but then we have to put <b>return_sequences=True</b> for the previous LSTM layer whose output will feed into the input of the next LSTM layer, to ensure that the output of the previous LSTM layer match the input of the next LSTM layer.
 > ![image](https://user-images.githubusercontent.com/86871718/138155978-8f5a70cd-616a-482f-9775-712e10032a97.png)
 
-
+### File: c3_week3_lab_1_imdb_reviews_single_layer_LSTM*.ipynb ---
+> TK
+### File: c3_week3_lab_2_imdb_reviews_multiple_layer_LSTM*.ipynb ---
+> TK
 
