@@ -1,9 +1,8 @@
 # Natural-Language-Processing-in-TensorFlow
 Course 3 of the Coursera Professional Certificate : DeepLearning.AI-Tensorflow-Developer-Professional-Certificate
 
-> <a href="https://www.tensorflow.org/datasets" target="_blank">TensorFlow Datasets (TFDS) :</a>
->
-> <a href="https://github.com/tensorflow/datasets/tree/master/docs/catalog">TFDS Catalog :</a>
+>            <a href="https://www.tensorflow.org/datasets" target="_blank">TensorFlow Datasets (TFDS)</a>
+>            <a href="https://github.com/tensorflow/datasets/tree/master/docs/catalog">TFDS Catalog</a>
 
 > <b>Kaggle links :</b>
 > <a href="https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection">News Headlines Dataset for Sarcasm Detection</a>
