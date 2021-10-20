@@ -1,9 +1,15 @@
 # Natural-Language-Processing-in-TensorFlow
 Course 3 of the Coursera Professional Certificate : DeepLearning.AI-Tensorflow-Developer-Professional-Certificate
 
-> TensorFlow Datasets (TFDS) : https://www.tensorflow.org/datasets
+> <a href="https://www.tensorflow.org/datasets" target="_blank">TensorFlow Datasets (TFDS) :</a>
 >
-> TFDS Catalog : https://github.com/tensorflow/datasets/tree/master/docs/catalog
+> <a href="https://github.com/tensorflow/datasets/tree/master/docs/catalog">TFDS Catalog :</a>
+
+> <b>Kaggle links :</b>
+> <a href="https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection">News Headlines Dataset for Sarcasm Detection</a>
+> Notebooks on Sarcasm Detection dataset :
+> <a href="https://www.kaggle.com/madz2000/sarcasm-detection-with-glove-word2vec-83-accuracy/notebook#TRAINING-WORD2VEC-MODEL">Sarcasm Detection with GloVe/Word2Vec(83%Accuracy)</a>
+> <a href="https://www.kaggle.com/gauravduttakiit/sarcasm-detection-using-transformers">Sarcasm Detection using Transformers</a>
 
 # Content of the Course :-
 
