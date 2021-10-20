@@ -55,7 +55,7 @@ This is the exact COURSERA version of code.
 
 ### File: c3_week2_optional_assignment_bbc_news_archive*.ipynb ---
 This is the exact COURSERA version of code.
-> kaggle "BBC News Archive" Dataset: https://www.kaggle.com/hgultekin/bbcnewsarchive
+> Kaggle Dataset: <a href="https://www.kaggle.com/hgultekin/bbcnewsarchive">BBC News Archive</a>
 
 > This is a Multi-Class Classification problem as there are 6 different types of labels / 6 categories of news.
 
