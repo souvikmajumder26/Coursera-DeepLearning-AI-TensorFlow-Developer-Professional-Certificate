@@ -57,6 +57,21 @@ This is the exact COURSERA version of code.
 
 Till now, we were training and predicting texts/sentences based on what words are present in the sentence - like if a positive word(inferred from training using the labelled data) is encountered then the probability of the sentence being predicted as the positive class increases and same for the negative class and same in case of multi-class also.
 
-But "My dog sat on the hat." and "The hat sat on my dog." have completely different meanings though they contain the same words - that's why the sequence of the words in the texts/sentences play a vital role which can only be Tracked/Implemented using special SEQUENCE NEURAL NETWORK MODELS like:- Recurrent Neural Network (RNN), Long Short Term Memory (LSTM), Gated Recurrent Unit (GRU).
+But "My dog sat on the hat." and "The hat sat on my dog." have completely different meanings though they contain the same words - that's why the sequence of the words in the texts/sentences has a huge impact on the meaning of the sentence, which can only be Tracked/Implemented using special SEQUENCE NEURAL NETWORK MODELS like:- Recurrent Neural Network (RNN), Long Short Term Memory (LSTM), Gated Recurrent Unit (GRU).
+
+> A simple Neural Network :
+> ![image](https://user-images.githubusercontent.com/86871718/138134273-eeed3c21-4e9c-4bfb-b814-9e0c9e64b8d5.png)
+> ![image](https://user-images.githubusercontent.com/86871718/138134295-d776868a-2ccb-4d4e-96f2-25be0a9ce870.png)
+
+> Fibonacci Series Function (where the sequence of the numbers matters) :
+> ![image](https://user-images.githubusercontent.com/86871718/138134448-2f82b1df-9e9d-4869-bcaf-bb0ce2601bd4.png)
+> ![image](https://user-images.githubusercontent.com/86871718/138134482-704ba448-2c39-4e4f-bcad-f8fca41382c4.png)
+
+> So, to track the sequence of words/numbers, we have to store or feed in the previous output continuosly (just like Sequential Circuit in Digital Electronics) and this can be impelemented using RNN :
+> ![image](https://user-images.githubusercontent.com/86871718/138134702-13dbc28c-bf2b-448e-b867-78084e003051.png)
+> ![image](https://user-images.githubusercontent.com/86871718/138134721-16fc13af-760a-4871-909f-fbe62f70091e.png)
+
+
+
 
 
