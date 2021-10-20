@@ -35,7 +35,7 @@ Course 3 of Coursera Professional Certificate: DeepLearning.AI-Tensorflow-Develo
 
 ### File: c3_week2_lab_2_sarcasm_classifier*.ipynb ---
 This is the exact COURSERA version of code - so no attempt of optimzation has been made.
-> 1) importing the kaggle-Sarcasm-Detection dataset(contains news_headlines and is_sarcastic(0/1) as the label) json and tokenizing the text to create the word_index
+> 1) importing the kaggle-Sarcasm-Detection dataset(news_headlines as the data and is_sarcastic(0/1) as the label) json and tokenizing the text to create the word_index
 > 2) creating an NLP classifier whose first layer is non-trainable Embedding layer that converts the words/tokens into vectors of fixed dimensions
 > 3) then these vectors are flattened and inserted into the trainable layers
 > 4) the vectors point to either pole (as binary classification whether sarcastic or not) based on the labels
