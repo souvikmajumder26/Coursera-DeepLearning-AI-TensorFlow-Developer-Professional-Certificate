@@ -57,7 +57,7 @@ This is the exact COURSERA version of code.
 
 Till now, we were training and predicting texts/sentences based on what words are present in the sentence - like if a positive word(inferred from training using the labelled data) is encountered then the probability of the sentence being predicted as the positive class increases and same for the negative class and same in case of multi-class also.
 
-But "My dog sat on the hat." and "The hat sat on my dog." have completely different meanings though they contain the same words - that's why the sequence of the words in the texts/sentences has a huge impact on the overall meaning of the sentence, which can only be Tracked/Implemented using special SEQUENCE NEURAL NETWORK MODELS like:- Recurrent Neural Network (RNN), Long Short Term Memory (LSTM), Gated Recurrent Unit (GRU).
+But "My dog sat on the hat." and "The hat sat on my dog." have completely different meanings though they contain the same words - that's why the sequence of the words in the texts/sentences has a huge impact on the overall meaning of the sentence, which can only be Tracked/Implemented using special <b>SEQUENCE NEURAL NETWORK MODELS</b> like:- Recurrent Neural Network (RNN), Long Short Term Memory (LSTM), Gated Recurrent Unit (GRU).
 
 <b>A simple Neural Network</b>
 > ![image](https://user-images.githubusercontent.com/86871718/138137557-04ed311a-aca6-4e24-817c-673929f40c4d.png)
@@ -69,7 +69,7 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 
 <b>Recurrent Neural Network (RNN)</b>
 
-> So, to track the sequence of words/numbers, we have to store or feed in the previous output continuosly (just like Sequential Circuit in Digital Electronics) and this can be impelemented using RNN (they carry the meaning from one cell to the next) :
+> So, to track the sequence of words/numbers, we have to store or feed in the previous output continuosly (just like <b>Sequential Circuit in Digital Electronics</b>) and this can be impelemented using RNN (they carry the meaning from one cell to the next) :
 > ![image](https://user-images.githubusercontent.com/86871718/138137867-6ed97f73-7997-4850-b61b-2c4dfb77d729.png)
 > ![image](https://user-images.githubusercontent.com/86871718/138137875-afc532bb-a043-408e-a94c-dee167bdb40d.png)
 
