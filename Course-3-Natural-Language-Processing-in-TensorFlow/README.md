@@ -117,10 +117,10 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > ![image](https://user-images.githubusercontent.com/86871718/138561712-12438c94-c485-4ccd-82ef-45127316a415.png)
 > This shows overfitting in the LSTM model (while the training accuracy increased the confidence in prediciting unseen data decreased i.e. validation loss increased).
 
-### File: c3_week3_lab_1_imdb_reviews_single_layer_LSTM*.ipynb
-### & File: c3_week3_lab_2_imdb_reviews_multiple_layer_LSTM*.ipynb ---
+### File: c3_week3_lab_1_imdb_subwords_single_layer_LSTM*.ipynb
+### & File: c3_week3_lab_2_imdb_subwords_multiple_layer_LSTM*.ipynb ---
 <b>10 Epochs Training</b>
-> Using the <b><i>imdb_reviews(plain_text) from TensorFlow datasets</i></b>.
+> Using the <b><i>imdb_reviews(subwords8k) from TensorFlow datasets</i></b>.
 > 
 > The nosedive at the end of validation_accuracy for 1 layer LSTM represents overfitting. We can see that 2 layer LSTM accuracy curve over 10 epochs is much more smoother than 1 layer LSTM accuracy curve - and we have seen that jagginess can be a sign that the model needs improvement/optimization.
 > ![image](https://user-images.githubusercontent.com/86871718/138558301-211b070d-a9ed-4e1a-a787-70388467d3f0.png)
