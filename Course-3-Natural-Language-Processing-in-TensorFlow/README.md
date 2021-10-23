@@ -49,6 +49,8 @@ This is the exact COURSERA version of code - so no attempt of optimzation has be
 This is the exact COURSERA version of code.
 > "Taking one step back to move two steps forward"
 
+> Using the <b><i>imdb_reviews(subwords8k) from TensorFlow datasets</i></b>.
+> 
 > Subwords are fragments of whole words; for eg: the three subwords (Ten, sor, Flow) are actually parts of the word "TensorFlow"; and subwords are case,punctuation,etc.-sensitive.
 >
 > Here, tokenization has already been done using the subwords and the word_index is already available; so we can use TensorFlow>Tokenizer>encode to convert a text into sequence of tokens, based on the word_index->{key=subword: value=token} AND use TensorFlow>Tokenizer>decode to convert a sequence of tokens into text, based on the word_index.
@@ -118,6 +120,8 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 ### File: c3_week3_lab_1_imdb_reviews_single_layer_LSTM*.ipynb
 ### & File: c3_week3_lab_2_imdb_reviews_multiple_layer_LSTM*.ipynb ---
 <b>10 Epochs Training</b>
+> Using the <b><i>imdb_reviews(plain_text) from TensorFlow datasets</i></b>.
+> 
 > The nosedive at the end of validation_accuracy for 1 layer LSTM represents overfitting. We can see that 2 layer LSTM accuracy curve over 10 epochs is much more smoother than 1 layer LSTM accuracy curve - and we have seen that jagginess can be a sign that the model needs improvement/optimization.
 > ![image](https://user-images.githubusercontent.com/86871718/138558301-211b070d-a9ed-4e1a-a787-70388467d3f0.png)
 > Similar results for loss curve.
@@ -130,7 +134,7 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > ![image](https://user-images.githubusercontent.com/86871718/138558651-7eece94b-019b-459d-8e5a-e048f04e26c2.png)
 
 ### File: c3_week3_lab_3_imdb_subwords_convolutional_network.ipnyb ---
-> Creating a model with very simple single Conv1D layer network with the dataset: imdb_reviews(subwords8k).
+> Creating a model with very simple single Conv1D layer network with the dataset: <b><i>imdb_reviews(subwords8k) from TensorFlow datasets</i></b>.
 > ![image](https://user-images.githubusercontent.com/86871718/138568170-8794d8de-a2a0-4195-b0b0-8f5846dd5165.png)
 > ![image](https://user-images.githubusercontent.com/86871718/138568200-62d551bb-6dc9-4bd1-811c-5c7299534a28.png)
 
