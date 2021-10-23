@@ -129,6 +129,10 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 
 ### File: c3_week3_lab_3_imdb_subwords_convolutional_network.ipnyb ---
 > Creating a model with very simple single Conv1D layer network with the dataset: imdb_reviews(subwords8k).
+> 
+> 
+> ![image](https://user-images.githubusercontent.com/86871718/138563881-9efe59eb-8c2d-4d39-a044-9d0cd087d5ef.png)
+
 
 
 
