@@ -15,6 +15,8 @@ Course 3 of Coursera Professional Certificate: DeepLearning.AI-Tensorflow-Develo
 
 # Content of the Course -
 
+<a href="#week-1">Week-1</a>
+
 ## Week-1
 
 ### File: c3_week1_lab_1_2_tokenizer_basics.ipynb ---
