@@ -127,6 +127,9 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > Loss curve is smoothening epoch by epoch.
 > ![image](https://user-images.githubusercontent.com/86871718/138558651-7eece94b-019b-459d-8e5a-e048f04e26c2.png)
 
+### File: c3_week3_lab_3_imdb_subwords_convolutional_network.ipnyb ---
+> Creating a model with very simple single Conv1D layer network with the dataset: imdb_reviews(subwords8k).
+
 
 
 
