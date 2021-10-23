@@ -109,6 +109,7 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > ![image](https://user-images.githubusercontent.com/86871718/138558301-211b070d-a9ed-4e1a-a787-70388467d3f0.png)
 > Similar results for loss curve.
 > ![image](https://user-images.githubusercontent.com/86871718/138558459-6886bb47-5aad-477c-bf3f-5699d38fea53.png)
+
 <b>50 Epochs Training</b>
 > Even if the final accuracies of both 1 and 2 layer LSTMs are similar, the frequent dips(jagginess) in the 1 layer LSTM curve refer that the model is not optimized, whereas the 2 layer LSTM curve is much smoother. To consider - we have only used 8k subwords from the training set, so there might be a lot of OOV(out of vocabulary) words/tokens in the test set and thus not very high validation accuracy.
 > ![image](https://user-images.githubusercontent.com/86871718/138558504-81dcc27f-071a-4a1d-aedc-d205c9337b04.png)
