@@ -102,8 +102,8 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > <b>LSTMs can be stacked</b> but then we have to put <b>return_sequences=True</b> for the previous LSTM layer whose output will feed into the input of the next LSTM layer, to ensure that the output of the previous LSTM layer match the input of the next LSTM layer.
 > ![image](https://user-images.githubusercontent.com/86871718/138155978-8f5a70cd-616a-482f-9775-712e10032a97.png)
 
-### File: c3_week3_lab_1_imdb_reviews_single_layer_LSTM*.ipynb ---
-> TK
-### File: c3_week3_lab_2_imdb_reviews_multiple_layer_LSTM*.ipynb ---
-> TK
+### File: c3_week3_lab_1_imdb_reviews_single_layer_LSTM*.ipynb & File: c3_week3_lab_2_imdb_reviews_multiple_layer_LSTM*.ipynb ---
+> The nosedive at the end of validation_accuracy for 1 layer LSTM represents overfitting. And we can see that 2 layer LSTM accuracy curve over 10 epochs is much more smoother than 1 layer LSTM accuracy curve - and we have seen that jagginess refers that the model needs improvement/optimization.
+> ![image](https://user-images.githubusercontent.com/86871718/138558301-211b070d-a9ed-4e1a-a787-70388467d3f0.png)
+
 
