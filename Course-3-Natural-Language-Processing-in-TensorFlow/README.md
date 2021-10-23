@@ -15,7 +15,7 @@ Course 3 of Coursera Professional Certificate: DeepLearning.AI-Tensorflow-Develo
 
 # Content of the Course -
 
-<a href="#week-1">Week 1</a> &nbsp;&nbsp;&nbsp; <a href="#week-2">Week 2</a>
+<a href="#week-1">Week 1</a> &nbsp;&nbsp;&nbsp; <a href="#week-2">Week 2</a> &nbsp;&nbsp;&nbsp; <a href="#week-3">Week 3</a> &nbsp;&nbsp;&nbsp; <a href="#week-4">Week 4</a>
 
 ## Week-1
 
