@@ -87,6 +87,8 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 <b>Long Short Term Memory (LSTM)</b>
 
 > Along with the context/meaning being propagated like in RNN, "CELL STATE" is also passed/propagated in case of LSTM. CELL STATE keeps context from earlier tokens relevant in later ones so that "Gaelic" can be predicted from the context of the individual token of "Ireland" (earlier example) that would have been lost in case of just RNN.
+> 
+> Vanilla RNNs do not have a cell state. They only have hidden states and those hidden states serve as the memory for RNNs. Meanwhile, LSTM has both cell states and a hidden states. The cell state has the ability to remove or add information to the cell, regulated by "gates".
 
 > <b>CELL STATE</b> can be either unidirectional or bidirectional.
 > ![image](https://user-images.githubusercontent.com/86871718/138149705-24cd32d3-65cc-47bb-b84e-f95d983ad120.png)
