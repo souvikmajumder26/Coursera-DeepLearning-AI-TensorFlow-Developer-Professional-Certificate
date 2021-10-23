@@ -111,7 +111,7 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > ![image](https://user-images.githubusercontent.com/86871718/138561663-092f2338-3919-4abd-9171-71464ad1b6c3.png)
 > ![image](https://user-images.githubusercontent.com/86871718/138561687-3548ada9-6013-4141-89bf-cd8cf3ccda75.png)
 > ![image](https://user-images.githubusercontent.com/86871718/138561712-12438c94-c485-4ccd-82ef-45127316a415.png)
-> This shows overfitting in the LSTM model (while the training accuracy increased the confidence in prediciting unseen data decreased i.e. validation loss decreased).
+> This shows overfitting in the LSTM model (while the training accuracy increased the confidence in prediciting unseen data decreased i.e. validation loss increased).
 
 ### File: c3_week3_lab_1_imdb_reviews_single_layer_LSTM*.ipynb
 ### & File: c3_week3_lab_2_imdb_reviews_multiple_layer_LSTM*.ipynb ---
