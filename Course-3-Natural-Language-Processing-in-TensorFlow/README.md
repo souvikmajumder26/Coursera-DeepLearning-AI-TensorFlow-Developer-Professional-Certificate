@@ -138,7 +138,7 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > ![image](https://user-images.githubusercontent.com/86871718/138568170-8794d8de-a2a0-4195-b0b0-8f5846dd5165.png)
 > ![image](https://user-images.githubusercontent.com/86871718/138568200-62d551bb-6dc9-4bd1-811c-5c7299534a28.png)
 
-### File: c3_week3_lab_3_imdb_reviews_gru_lstm_conv1d_network*.ipnyb ---
+### File: c3_week3_lab_3_imdb_reviews_gru_lstm_conv1d*.ipnyb ---
 > Using the <b><i>imdb_reviews(plain_text) from TensorFlow datasets</i></b>.
 > After tokenizing and generating the word_index; three different models: GRU, LSTM, and Conv1D are trained and tested.
 
