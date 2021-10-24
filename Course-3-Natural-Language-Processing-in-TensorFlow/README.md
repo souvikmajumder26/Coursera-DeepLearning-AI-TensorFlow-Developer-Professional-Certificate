@@ -24,20 +24,20 @@ Course 3 of Coursera Professional Certificate: DeepLearning.AI-Tensorflow-Develo
 ### <a href="https://github.com/souvikmajumder26/DeepLearning-AI-TensorFlow-Developer-Professional-Certificate/blob/main/Course-3-Natural-Language-Processing-in-TensorFlow/c3_week1_lab_1_2_tokenizer_basics.ipynb">File: c3_week1_lab_1_2_tokenizer_basics.ipynb ---</a>
 > Tokenizing natural language text into sequence of numbers/values/tokens per word so that the computer can work with them.
 
-### File: c3_week1_lab_3_sarcasm_detection.ipynb ---
+### <a href="https://github.com/souvikmajumder26/DeepLearning-AI-TensorFlow-Developer-Professional-Certificate/blob/main/Course-3-Natural-Language-Processing-in-TensorFlow/c3_week1_lab_3_sarcasm_detection.ipynb">File: c3_week1_lab_3_sarcasm_detection.ipynb ---</a>
 > Kaggle Dataset: <a href="https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection">News Headlines Dataset for Sarcasm Detection</a>
 
 > Only upto tokenizing the kaggle-Sarcasm-Detection dataset into sequence of numbers/tokens and creating the word_index->{key=word: value=token}.
 
 ## Week-2
 
-### File: c3_week2_lab_1_imdb_reviews*.ipynb ---
+### <a href="https://github.com/souvikmajumder26/DeepLearning-AI-TensorFlow-Developer-Professional-Certificate/blob/main/Course-3-Natural-Language-Processing-in-TensorFlow/c3_week2_lab_1_imdb_reviews*.ipynb">File: c3_week2_lab_1_imdb_reviews*.ipynb ---</a>
 > 1) tokenizing the <b><i>imdb_reviews(plain_text) from TensorFlow datasets</i></b> to create the word_index
 > 2) creating an NLP classifier whose first layer is non-trainable Embedding layer that converts the words/tokens into vectors of fixed dimensions
 > 3) then these vectors are flattened and inserted into the trainable layers
 > 4) the vectors point to either pole (as binary classification) based on the labels
 
-### File: c3_week2_lab_2_sarcasm_classifier*.ipynb ---
+### <a href="https://github.com/souvikmajumder26/DeepLearning-AI-TensorFlow-Developer-Professional-Certificate/blob/main/Course-3-Natural-Language-Processing-in-TensorFlow/c3_week2_lab_2_sarcasm_classifier*.ipynb">File: c3_week2_lab_2_sarcasm_classifier*.ipynb ---</a>
 This is the exact COURSERA version of code - so no attempt of optimzation has been made.
 > 1) importing the kaggle-Sarcasm-Detection dataset(news_headlines as the data and is_sarcastic(0/1) as the label) json and tokenizing the text to create the word_index
 > 2) creating an NLP classifier whose first layer is non-trainable Embedding layer that converts the words/tokens into vectors of fixed dimensions
@@ -45,7 +45,7 @@ This is the exact COURSERA version of code - so no attempt of optimzation has be
 > 4) the vectors point to either pole (as binary classification whether sarcastic or not) based on the labels
 > 5) model.predict on custom text(caption) will output a probability towards the caption being Sarcastic as the model's last layer had a single neuron with "sigmoid" activation function which is S-shaped and thus only used to determine binary classification results
 
-### File: c3_week2_lab_3_imdb_subwords.ipynb ---
+### <a href="https://github.com/souvikmajumder26/DeepLearning-AI-TensorFlow-Developer-Professional-Certificate/blob/main/Course-3-Natural-Language-Processing-in-TensorFlow/c3_week2_lab_3_imdb_subwords.ipynb">File: c3_week2_lab_3_imdb_subwords.ipynb ---</a>
 This is the exact COURSERA version of code.
 > "Taking one step back to move two steps forward"
 
@@ -59,7 +59,7 @@ This is the exact COURSERA version of code.
 > 
 > <b><i>These subwords will work well, only if we can track the sequence of the subwords to form meaningful words like "Ten-sor-Flow", and for that sequence tracking - we need Recurrent Neural Network (RNN) which we'll be using in future (not in this code).</i></b>
 
-### File: c3_week2_optional_assignment_bbc_news_archive*.ipynb ---
+### <a href="https://github.com/souvikmajumder26/DeepLearning-AI-TensorFlow-Developer-Professional-Certificate/blob/main/Course-3-Natural-Language-Processing-in-TensorFlow/c3_week2_optional_assignment_bbc_news_archive*.ipynb">File: c3_week2_optional_assignment_bbc_news_archive*.ipynb ---</a>
 This is the exact COURSERA version of code.
 > Kaggle Dataset: <a href="https://www.kaggle.com/hgultekin/bbcnewsarchive">BBC News Archive</a>
 
@@ -117,8 +117,8 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > ![image](https://user-images.githubusercontent.com/86871718/138561712-12438c94-c485-4ccd-82ef-45127316a415.png)
 > This shows overfitting in the LSTM model (while the training accuracy increased the confidence in prediciting unseen data decreased i.e. validation loss increased).
 
-### File: c3_week3_lab_1_imdb_subwords_single_layer_LSTM*.ipynb
-### & File: c3_week3_lab_2_imdb_subwords_multiple_layer_LSTM*.ipynb ---
+### <a href="https://github.com/souvikmajumder26/DeepLearning-AI-TensorFlow-Developer-Professional-Certificate/blob/main/Course-3-Natural-Language-Processing-in-TensorFlow/c3_week3_lab_1_imdb_subwords_single_layer_LSTM*.ipynb">File: c3_week3_lab_1_imdb_subwords_single_layer_LSTM*.ipynb</a>
+### & <a href="https://github.com/souvikmajumder26/DeepLearning-AI-TensorFlow-Developer-Professional-Certificate/blob/main/Course-3-Natural-Language-Processing-in-TensorFlow/c3_week3_lab_2_imdb_subwords_multiple_layer_LSTM*.ipynb">File: c3_week3_lab_2_imdb_subwords_multiple_layer_LSTM*.ipynb ---</a>
 <b>10 Epochs Training</b>
 > Using the <b><i>imdb_reviews(subwords8k) from TensorFlow datasets</i></b>.
 > 
@@ -133,12 +133,12 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > Loss curve is smoothening epoch by epoch.
 > ![image](https://user-images.githubusercontent.com/86871718/138558651-7eece94b-019b-459d-8e5a-e048f04e26c2.png)
 
-### File: c3_week3_lab_3_imdb_subwords_convolutional_network.ipnyb ---
+### <a href="https://github.com/souvikmajumder26/DeepLearning-AI-TensorFlow-Developer-Professional-Certificate/blob/main/Course-3-Natural-Language-Processing-in-TensorFlow/c3_week3_lab_3_imdb_subwords_convolutional_network.ipynb">File: c3_week3_lab_3_imdb_subwords_convolutional_network.ipnyb ---</a>
 > Creating a model with very simple single Conv1D layer network with the dataset: <b><i>imdb_reviews(subwords8k) from TensorFlow datasets</i></b>.
 > ![image](https://user-images.githubusercontent.com/86871718/138568170-8794d8de-a2a0-4195-b0b0-8f5846dd5165.png)
 > ![image](https://user-images.githubusercontent.com/86871718/138568200-62d551bb-6dc9-4bd1-811c-5c7299534a28.png)
 
-### File: c3_week3_lab_4_imdb_reviews_GRU_LSTM_Conv1D*.ipnyb ---
+### <a href="https://github.com/souvikmajumder26/DeepLearning-AI-TensorFlow-Developer-Professional-Certificate/blob/main/Course-3-Natural-Language-Processing-in-TensorFlow/c3_week3_lab_4_imdb_reviews_GRU_LSTM_Conv1D*.ipynb">File: c3_week3_lab_4_imdb_reviews_GRU_LSTM_Conv1D*.ipnyb ---</a>
 > Using the <b><i>imdb_reviews(plain_text) from TensorFlow datasets</i></b>.
 > After tokenizing and generating the word_index; three different models: GRU, LSTM, and Conv1D are trained and tested.
 
