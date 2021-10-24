@@ -8,14 +8,14 @@ Course 3 of Coursera Professional Certificate: DeepLearning.AI-Tensorflow-Develo
 > <a href="https://github.com/tensorflow/datasets/tree/master/docs/catalog">TFDS Catalog</a>
 
 <b>Kaggle links :</b>
-> Dataset: <a href="https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection">News Headlines Dataset for Sarcasm Detection</a>
+> Dataset: <a href="https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection">News&nbsp;Headlines&nbsp;Dataset&nbsp;for&nbsp;Sarcasm&nbsp;Detection</a>
 > 
 > Best Notebooks on Sarcasm Detection dataset:
-> <a href="https://www.kaggle.com/madz2000/sarcasm-detection-with-glove-word2vec-83-accuracy/notebook#TRAINING-WORD2VEC-MODEL">Sarcasm Detection with GloVe/Word2Vec(83%Accuracy)</a>, <a href="https://www.kaggle.com/gauravduttakiit/sarcasm-detection-using-transformers">Sarcasm Detection using Transformers</a>
+> <a href="https://www.kaggle.com/madz2000/sarcasm-detection-with-glove-word2vec-83-accuracy/notebook#TRAINING-WORD2VEC-MODEL">Sarcasm&nbsp;Detection&nbsp;with GloVe/Word2Vec(83%Accuracy)</a>, <a href="https://www.kaggle.com/gauravduttakiit/sarcasm-detection-using-transformers">Sarcasm&nbsp;Detection&nbsp;using&nbsp;Transformers</a>
 > 
-> Dataset: <a href="https://www.kaggle.com/hgultekin/bbcnewsarchive">BBC News Archive</a>
+> Dataset: <a href="https://www.kaggle.com/hgultekin/bbcnewsarchive">BBC&nbsp;News&nbsp;Archive</a>
 > 
-> Dataset: <a href="https://www.kaggle.com/kazanova/sentiment140">Sentiment140 dataset with 1.6 million tweets</a>
+> Dataset: <a href="https://www.kaggle.com/kazanova/sentiment140">Sentiment140&nbsp;dataset&nbsp;with&nbsp;1.6&nbsp;million&nbsp;tweets</a>
 
 # Content of the Course -
 
