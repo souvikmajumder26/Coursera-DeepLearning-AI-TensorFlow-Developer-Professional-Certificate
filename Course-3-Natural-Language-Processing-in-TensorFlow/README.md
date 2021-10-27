@@ -151,4 +151,4 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > 2) Defined two NLP NN models - a) bi-LSTM and b) Conv1D ; trained and tested on them.
 > 3) Plotted the performances of the two models in TensorBoard and also simple Matplotlib graph.
 
-
+## Week-4
