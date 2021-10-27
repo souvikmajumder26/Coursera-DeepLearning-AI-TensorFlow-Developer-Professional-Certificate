@@ -144,8 +144,11 @@ But "My dog sat on the hat." and "The hat sat on my dog." have completely differ
 > Using the <b><i>imdb_reviews(plain_text) from TensorFlow datasets</i></b>.
 > After tokenizing and generating the word_index; three different models: GRU, LSTM, and Conv1D are trained and tested.
 
-
-
-
+### <a href="https://github.com/souvikmajumder26/DeepLearning-AI-TensorFlow-Developer-Professional-Certificate/blob/main/Course-3-Natural-Language-Processing-in-TensorFlow/c3_week1_lab_5_6_sarcasm_bi-LSTM_Conv1D*.ipynb">File: c3_week1_lab_5_6_sarcasm_bi-LSTM_Conv1D*.ipynb ---</a>
+> Kaggle Dataset: <a href="https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection">News Headlines Dataset for Sarcasm Detection</a>
+> 
+> 1) Imported the modified kaggle-Sarcasm-Detection dataset (news_headlines as the data and is_sarcastic(0/1) as the label) json from My-Drive and Tokenized the text to create the word_index, using which the training and testing sequences are formed and their padded versions will be used further.
+> 2) Defined two NLP NN models - a) bi-LSTM and b) Conv1D ; trained and tested on them.
+> 3) Plotted the performances of the two models in TensorBoard and also simple Matplotlib graph.
 
 
