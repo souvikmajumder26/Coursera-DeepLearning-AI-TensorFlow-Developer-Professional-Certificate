@@ -20,8 +20,8 @@ Course 3 of Coursera Professional Certificate: DeepLearning.AI-Tensorflow-Develo
 # Content of the Course -
 
 <a href="#week-1">Week 1</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#week-2">Week 2</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#week-3">Week 3</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#week-4">Week 4</a>
-<b>Week 1, 2, 3 ---</b> all about prediciting the correct label(based on training - sarcasm, sentiment, etc.) against a particular testing text after being trained on a labeled data.
-<b>Week 4 ---</b> about predicting the most probable(calculated based on what words were present in what sequence in the training data) word that should be placed after a phrase and continuing to generate new words based on newly extended phrase(containing previous predicted words); thus generating new text(eg: story, poetry).
+<p><b>Week 1, 2, 3 ---</b> all about prediciting the correct label(based on training - sarcasm, sentiment, etc.) against a particular testing text after being trained on a labeled data.</p>
+<p><b>Week 4 ---</b> about predicting the most probable(calculated based on what words were present in what sequence in the training data) word that should be placed after a phrase and continuing to generate new words based on newly extended phrase(containing previous predicted words); thus generating new text(eg: story, poetry).</p>
 
 ## Week-1
 
