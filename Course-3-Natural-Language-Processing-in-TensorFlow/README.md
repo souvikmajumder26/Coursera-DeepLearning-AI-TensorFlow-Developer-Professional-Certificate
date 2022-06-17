@@ -1,7 +1,7 @@
 # Natural-Language-Processing-in-TensorFlow
 Course 3 of Coursera Professional Certificate: DeepLearning.AI-Tensorflow-Developer-Professional-Certificate
 
-# Links -
+# Links :
 
 > <a href="https://www.tensorflow.org/datasets" target="_blank">TensorFlow Datasets (TFDS)</a>
 > 
@@ -17,7 +17,7 @@ Course 3 of Coursera Professional Certificate: DeepLearning.AI-Tensorflow-Develo
 > 
 > Dataset: <a href="https://www.kaggle.com/kazanova/sentiment140">Sentiment140&nbsp;dataset&nbsp;with&nbsp;1.6&nbsp;million&nbsp;tweets</a>
 
-# Content of the Course -
+# Content of the Course :
 
 <a href="#week-1">Week 1</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#week-2">Week 2</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#week-3">Week 3</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="#week-4">Week 4</a>
 <p><b>Week 1, 2, 3 ---</b> all about prediciting the correct label(based on training - sarcasm, sentiment, etc.) against a particular testing text after being trained on a labeled data.</p>
